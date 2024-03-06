@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/zsh
 
 code --install-extension oderwat.indent-rainbow
 code --install-extension redhat.vscode-yaml
