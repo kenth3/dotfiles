@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-sleep 60
+whoami
 
 code --install-extension oderwat.indent-rainbow
 code --install-extension redhat.vscode-yaml
