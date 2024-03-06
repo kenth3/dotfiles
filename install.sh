@@ -1,13 +1,9 @@
+#!/usr/bin/env bash
 
-declare -a extensions=(
-	oderwat.indent-rainbow
-	redhat.vscode-yaml
-	GitHub.vscode-github-actions
-)
+code --install-extension oderwat.indent-rainbow
+code --install-extension redhat.vscode-yaml
+code --install-extension GitHub.vscode-github-actions
 
-for ext in "${extensions[@]}"
-do
-	code --install-extension $ext
-done
+
 
 
