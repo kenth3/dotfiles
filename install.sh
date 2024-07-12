@@ -1,5 +1,8 @@
 #!/bin/zsh
 
-/usr/local/bin/code --install-extension oderwat.indent-rainbow
-/usr/local/bin/code --install-extension redhat.vscode-yaml
-/usr/local/bin/code --install-extension GitHub.vscode-github-actions
+which code
+sleep 30
+
+code --install-extension oderwat.indent-rainbow
+code --install-extension redhat.vscode-yaml
+code --install-extension GitHub.vscode-github-actions
