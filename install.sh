@@ -20,6 +20,3 @@ else
     echo "Warning: VS Code command not available after $timeout seconds"
     echo "Extensions may need to be installed manually"
 fi
-
-
-
